@@ -1,0 +1,539 @@
+/* HOME PAGE
+---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------- */
+.black-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1050;
+}
+
+
+*{
+	text-decoration: none;
+
+}
+
+.container {
+	margin: 0 auto;
+	padding-right: 0px;
+	padding-left:0px;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+#logo{
+  height: 40px;
+  width: 110px;
+  float: left;
+  margin-left: 20px;
+}
+
+header{
+	background-color: #fff;
+	width: 100%;
+	height: 50px;
+	padding: 10px 0;
+	display:inline-block
+}
+
+header nav ul{
+	display: inline;
+    margin: 0 auto;
+    float: right;
+    padding: 20px;
+    overflow:hidden;
+}
+
+header nav ul li{
+    display:inline-block;
+	float: left;
+	list-style: none;
+	padding: 0 40px
+
+}
+
+header nav ul li a{
+    font-family: helvetica Neue;
+	font-size: 13px;
+	font-weight:500;
+	color: 111;
+    text-transform: uppercase;
+    display: block;
+    color:#373737;    
+ }
+
+#shoppingcart{
+	height:19px;
+	width: 20px;
+}
+
+/*INDEX*/
+
+.container{
+	position: relative;
+	text-align: center;
+
+	
+}
+
+.centered{	
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+   
+	font-family: Cooper Std;
+
+	text-align: center;
+	color:#fff;
+	font-size: 64px;
+	text-shadow: 2px 2px 8px #111;	
+	margin:0 0 30px 0; 
+	padding:0; 
+	font-size:3rem;
+	}
+
+
+#bun{
+	height: 214px;
+    width: 214px;
+
+}
+
+
+
+/*CONTENT*/
+
+.homepage-button{
+	height: 48px;
+    width: 221px;
+	background-color: #A0491A;
+	color:white;
+	text-align:center;
+	margin-top: 26px;
+	font-size: 18px;
+	font-family: helvetica Neue;
+	font-weight: bold;
+}
+
+
+
+.content{
+	/*margin: 74px 30% 0 30%; */  
+   display:flex;
+   justify-content: center;
+   margin-top: 100px;
+   margin-bottom:200px;
+}
+
+.left-row{	
+    margin-top: 20px;
+    margin-right:50px;
+}
+
+
+.right-row{
+
+	height: 151px;
+    width: 490px;
+    margin-left:50px;
+    text-align: left;
+
+}
+
+.right-row2{	
+    margin-top: 20px;
+    
+}
+
+
+
+.left-row2{
+
+	height: 151px;
+    width: 490px;
+    margin-left:50px;
+    text-align: left;
+    margin-right:50px;
+
+}
+
+.comment-header{
+	font-size: 36px;
+	font-family: helvetica Neue;
+	font-weight: medium;
+	margin-bottom: 0px;
+	color:#373737; 
+
+}
+
+.comment-detail{
+	font-size: 15px;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+	margin-top: 0px;
+	color:#373737; 
+
+}
+
+
+
+
+
+
+/* MENU PAGE
+---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------- */
+
+
+.h5{
+    font-size: 27px;
+	font-family: helvetica Neue;
+	font-weight: bold;
+	margin-top: 38px;
+	color:#373737; 
+
+}
+
+.Gallery{
+	max-width: 1361px;
+    margin: 21px auto 0 auto;
+    line-height: 1.5;
+    display: flex;
+
+}
+
+.row-one{
+	flex:1;
+	display: flex;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+	background-color:#f8f8f8;
+	border-radius: 4px;
+	padding: 15px;
+	margin-right: 28px;
+	
+}
+
+.row-two{
+	flex:1;
+	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color:#f8f8f8;
+	border-radius: 4px;
+	padding: 15px;
+	margin-right: 28px;
+}
+
+.row-three{
+	flex:1;
+	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color:#f8f8f8;
+	border-radius: 4px;
+	padding: 15px;
+	margin-right: 0;
+}
+
+
+.roll-pic{
+	width:171px;
+	height: 180px;
+}
+
+.name-of-roll{
+	color:#373737; 
+	font-size: 24px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	margin-left: 21px;
+	margin-bottom: 0px;
+	margin-top: 0;
+
+}
+
+.price-tag{
+	color:#F8CB00; 
+	font-size: 18px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-left: 21px;
+
+}
+
+.description{
+	color:#373737; 
+	font-size: 12px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-left: 21px;
+
+}
+
+.cart{
+	height:31px;
+	width: 35px;
+	float: right;
+	
+}
+
+
+
+/* MENU PAGE
+---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------- */
+
+
+
+.pop-up{
+	
+	z-index: 1060;
+    margin-top: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+   
+	position: absolute;
+	top:248px;	
+	width:859px;
+	height:440px;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+	background-color:#ffffff;
+	border-radius: 4px;
+	padding: 30px;
+	display: flex;
+	margin-bottom: 0;
+
+}
+
+
+.pop-pic{
+	width: 379px;
+	height: 429px;
+	margin-bottom: 0;
+}
+
+
+.clickout{
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+
+.name-of-roll-pop-up{
+	color:#373737; 
+	font-size: 28px;
+	font-family: helvetica Neue;
+	font-weight: bold;
+	margin-left: 46px;
+	margin-bottom: 48px;
+	margin-top: 30px;
+}
+
+
+.price-tag-pop-up{
+	color:#F8CB00; 
+	font-size: 23px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	margin-top: -75px;
+	margin-left: 46x;
+	float: right;
+
+}
+
+.description-pop-up{
+	color:#373737; 
+	font-size: 14px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-left: 46px;
+
+}
+
+.options{
+	color:#373737; 
+	font-size: 18px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	margin-top: 27px;
+	margin-left: 46px;
+
+}
+
+.add-to-cart-button{
+	height: 40px;
+    width: 221px;
+	background-color: #8F8F8F;
+	color:white;
+	text-align:center;
+	margin-top: 94px;
+	font-size: 12px;
+	font-family: helvetica Neue;
+	font-weight: bold;
+	border-radius: 3;
+	float: right;
+	border: none;
+}
+
+.options{
+    display: inline;
+    margin-right:18px;
+
+}
+
+
+
+
+
+
+
+/*
+	color:#373737; 
+	font-size: 14px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+    border: .06em solid $color;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;
+    margin-left: 8px;    
+    height: 31px;
+    width: 204px;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 3em;
+    margin-bottom: 27px;
+*/
+
+
+.drop-down{
+	font-size: 14px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	color:#373737; 
+	height: 31px;
+    width: 204px;
+    margin-bottom: 27px;
+    margin-left: 8px; 
+
+}
+
+
+
+
+.Quantity-button{
+	height: 31px;
+    width: 33px;
+	background-color: white;
+	color:373737;
+	text-align:center;
+	margin-top: 0;
+	font-size: 14px;
+	font-family: helvetica Neue;
+	font-weight: normal;
+	margin-right: 10px;
+	border: 1px solid #979797;
+	border-radius: 3px;
+
+}
+
+
+.Quantity-button:hover{
+	background-color: #A0491A;
+	color: white;
+	border:none;
+
+}
+
+
+
+/* FOOTER
+---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+.footer {
+   margin-top: 170px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-left-row{
+    flex: 2;
+    text-align: left;
+    margin-left: 150px;
+    line-height: 50px;
+
+}
+
+.footer-right-row{
+    flex: 1;
+    text-align: left;
+    margin-right: 150px;
+    padding-top: 10px;
+    padding-left: 20px: 
+
+}
+
+.h7{
+	font-size: 18px;
+	font-family: helvetica Neue;
+	font-weight: medium;
+
+}
+
+.footer-intro{
+	padding-top: 20px;
+	font-size: 14px;
+	font-family: helvetica Neue;
+	font-weight: medium;
+
+
+}
+
+
+
+
+.message{
+	font-size: 30px;
+	font-family: helvetica Neue;
+	font-weight: medium;
+
+
+}
+
+/* Attributes
+---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------- 
+All images from loyalty free websites: 
+unsplash.com
+pixels.com
+thestocks.im
+
+*/
+
+
+
